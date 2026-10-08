@@ -1,0 +1,16 @@
+{
+  "clientRequestId": "example-v1",
+  "note": "README 示例",
+  "categories": ["N", "Y"],
+  "pairs": [
+    { "sampleId": "s1", "labelA": "N", "labelB": "N" },
+    { "sampleId": "s2", "labelA": "N", "labelB": "N" },
+    { "sampleId": "s3", "labelA": "N", "labelB": "N" },
+    { "sampleId": "s4", "labelA": "N", "labelB": "Y" },
+    { "sampleId": "s5", "labelA": "Y", "labelB": "N" },
+    { "sampleId": "s6", "labelA": "Y", "labelB": "Y" },
+    { "sampleId": "s7", "labelA": "Y", "labelB": "Y" },
+    { "sampleId": "s8", "labelA": "Y", "labelB": "Y" },
+    { "sampleId": "s9", "labelA": null, "labelB": "Y" }
+  ]
+}

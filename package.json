@@ -1,0 +1,26 @@
+{
+  "name": "cohen-kappa-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "本地双评定者 Cohen 加权一致性与偶然一致分母核验后端（仅 API 与 CLI）",
+  "bin": {
+    "kappa-cli": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/*.test.ts",
+    "start": "tsx src/server.ts",
+    "serve:dist": "node dist/server.js",
+    "cli": "tsx src/cli.ts",
+    "demo": "tsx src/demo.ts"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

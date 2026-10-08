@@ -1,0 +1,39 @@
+{
+  "datasets": [
+    {
+      "name": "demo-balanced",
+      "categories": ["neg", "pos"],
+      "records": [
+        {"id":"s1","a":"pos","b":"pos"},{"id":"s2","a":"pos","b":"pos"},{"id":"s3","a":"pos","b":"pos"},
+        {"id":"s4","a":"pos","b":"neg"},{"id":"s5","a":"neg","b":"pos"},
+        {"id":"s6","a":"neg","b":"neg"},{"id":"s7","a":"neg","b":"neg"},{"id":"s8","a":"neg","b":"neg"}
+      ]
+    },
+    {
+      "name": "demo-ordered3",
+      "categories": ["low", "mid", "high"],
+      "records": [
+        {"id":"t1","a":"low","b":"low"},{"id":"t2","a":"low","b":"low"},
+        {"id":"t3","a":"low","b":"mid"},{"id":"t4","a":"low","b":"high"},
+        {"id":"t5","a":"mid","b":"mid"},{"id":"t6","a":"mid","b":"mid"},
+        {"id":"t7","a":"mid","b":"high"},{"id":"t8","a":"high","b":"high"},
+        {"id":"t9","a":"high","b":"high"},{"id":"t10","a":"high","b":"low"}
+      ]
+    },
+    {
+      "name": "demo-degenerate",
+      "categories": ["x", "y"],
+      "records": [
+        {"id":"d1","a":"x","b":"x"},{"id":"d2","a":"x","b":"x"},{"id":"d3","a":"x","b":"x"}
+      ]
+    },
+    {
+      "name": "demo-missing",
+      "categories": ["x", "y"],
+      "records": [
+        {"id":"m1","a":"x","b":"x"},{"id":"m2","a":null,"b":"x"},
+        {"id":"m3","a":"y","b":null},{"id":"m4","a":null,"b":null}
+      ]
+    }
+  ]
+}
